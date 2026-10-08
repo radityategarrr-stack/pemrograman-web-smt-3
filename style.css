@@ -1,0 +1,65 @@
+body {
+    margin:0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #e8f7ef;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    background: rgba(225, 225, 225, 0.3);
+    border-radius: 5%;
+    
+}
+.foto {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+h1{
+    margin: 10px;
+    font-size: 25px;
+    color: #222;
+}
+
+p{
+    margin: 6px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #315bb5;
+}
+
+.hobi {
+    margin: 6px;
+    padding: 8px;
+    background: rgba(48, 44, 44, 0.3);
+    border-radius: 15px;
+    color: #2f2d2d;
+
+}
+
+a {
+    display: inline-block;
+    padding: 9px 12px;
+    margin: 3px;
+    background: #315bb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
